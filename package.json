@@ -1,5 +1,5 @@
 {
-  "name": "readingList",
+  "name": "readinglist",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -28,8 +28,7 @@
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "mongoose": "^5.3.16"
-  }
-
+  },
   "bugs": {
     "url": "https://github.com/orourkekyle/readingList/issues"
   },
