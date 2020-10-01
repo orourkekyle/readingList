@@ -89,7 +89,7 @@ class Home extends Component {
                       title={book.volumeInfo.title}
                       subtitle={book.volumeInfo.subtitle}
                       link={book.volumeInfo.infoLink}
-                      authors={book.volumeInfo.authors} // .join(", ")
+                      authors={book.volumeInfo.authors.join(", ")}
                       description={book.volumeInfo.description}
                       image={book.volumeInfo.imageLinks.thumbnail}
                       Button={() => (

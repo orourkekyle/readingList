@@ -21,9 +21,7 @@ function Book({title, subtitle, authors, link, description, image, Button}) {
       </Row>
       <Row>
         <Col size="md-6">
-          <ul className="font-italic small">Author(s):
-          {this.map(() => (
-            <li>{authors}</li>))}
+          <ul className="font-italic small">Author(s): {authors}
           </ul>
         </Col>
       </Row>
